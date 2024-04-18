@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link href="/css/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <h1 id="heading">QuizWiz , Enhance Your Learning</h1>
+    <form method="post" action="/">
+        <div id="main-quiz-div">
+            <p id="score">score: <%= locals.score %></p>
+            <p id="quiz">What is the capital of <%= quest %> </p>
+            <input id="quiz-ans" type="text" name="ans" required placeholder="Enter your answer" autofocus='off'autocomplete="off">
+            <button id="btn">submit</button>
+        </div>
+    </form>
+    
+</body>
+<script src="/js/index.js"> </script>
+</html>

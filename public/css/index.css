@@ -1,0 +1,109 @@
+
+body{
+    background-image: url('/img/bg.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size:cover;
+}
+
+
+#main-quiz-div {
+    
+    width: 800px;
+    box-shadow: 0px 2px 117px -8px;
+    padding-bottom:80px;
+    background-color: rgb(176,205,237);
+    /* height: 360px; */
+    margin-top: 290px;
+    margin-left: 550px;
+    border-radius: 40px;
+}
+
+#quiz-ans{
+    border-style: none;
+    outline: none;
+    background-color: rgb(176,205,237);
+    border-bottom:2px solid rgb(84, 127, 173);
+    display: block;
+    margin-top: 90px;
+    margin-left: 250px;
+    width: 250px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    color:rgb(84, 127, 173) ;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#quiz{
+    position: relative;
+    top: 30px;
+
+    left: 80px;
+    color:rgb(84, 127, 173) ;
+    font-size: 40px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    width: 700px;
+}
+#score{
+    position: relative;
+    top: 30px;
+
+    left: 20px;
+    color:rgb(84, 127, 173) ;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+}
+#btn{
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 220px;
+    width: 320px;
+    border-radius: 10px;
+    border-style:none ;
+    padding: 10px 20px 10px 20px;
+    background-color:rgb(84, 127, 173) ;
+    color: white;
+    font-weight: 400;
+    font-family: "Exo 2", sans-serif;
+}
+
+#heading {
+    font-size: 60px;
+    margin-left: 500px;
+    margin-top: 80px;
+    text-shadow: 3px 3px 3px rgb(84, 127, 173) ;
+    color:rgb(75, 122, 172) ;
+    font-weight: 400;
+    font-family: "Exo 2", sans-serif;
+}
+#heading2{
+    font-size: 60px;
+    margin-left: 560px;
+    margin-top: 80px;
+    text-shadow: 3px 3px 3px rgb(84, 127, 173) ;
+    color:rgb(75, 122, 172) ;
+    font-weight: 400;
+    font-family: "Exo 2", sans-serif;
+}
+.score{
+    margin-left: 800px;
+    text-shadow: 3px 3px 3px rgb(84, 127, 173) ;
+    color:rgb(75, 122, 172) ;
+    font-size: 60px;
+}
+.restart{
+    width: 320px;
+    border-radius: 10px;
+    border-style:none ;
+    padding: 10px 20px 10px 20px;
+    background-color:rgb(84, 127, 173) ;
+    color: white;
+    font-weight: 400;
+    font-family: "Exo 2", sans-serif;
+    margin-left: 820px;
+    cursor: pointer;
+}
